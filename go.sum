@@ -1,0 +1,4 @@
+github.com/Masterminds/semver/v3 v3.1.0 h1:Y2lUDsFKVRSYGojLJ1yLxSXdMmMYTYls0rCvoqmMUQk=
+github.com/Masterminds/semver/v3 v3.1.0/go.mod h1:VPu/7SZ7ePZ3QOrcuXROw5FAcLl4a0cBrbBpGY/8hQs=
+github.com/caddyserver/xcaddy v0.1.5 h1:5kOplAJils1L9nIhzmHerVUQ9o4WF/bMEuw2DRIOSQE=
+github.com/caddyserver/xcaddy v0.1.5/go.mod h1:Gxj0yR1COUiWmOluEEQv8Ls7KZr47g5eltp9m0FFaJU=
