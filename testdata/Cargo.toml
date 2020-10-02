@@ -1,0 +1,11 @@
+[package]
+name = "caddy-fastlike-example"
+version = "0.0.0"
+authors = []
+edition = "2018"
+
+[profile.release]
+debug = true
+
+[dependencies]
+fastly = "^0.3.3"

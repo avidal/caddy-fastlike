@@ -1,0 +1,27 @@
+{
+  "apps": {
+    "http": {
+      "servers": {
+        "myserver": {
+          "listen": [
+            "localhost:2105"
+          ],
+          "routes": [
+            {
+              "handle": [
+                {
+                  "handler": "fastlike",
+                  "wasm": "testdata/target/wasm32-wasi/debug/caddy-fastlike-example.wasm"
+                },
+                {
+                  "browse": {},
+                  "handler": "file_server"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
